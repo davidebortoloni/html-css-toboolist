@@ -9,13 +9,14 @@ body {
 }
 
 header {
-    height: 80px;
-    padding: 20px 10px;
+    height: 85px;
+    padding: 10px 20px;
     background-color: white;
     margin-bottom: 30px;
 }
 
 h1 {
+    font-size: 50px;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     vertical-align: middle;
@@ -25,4 +26,33 @@ h1 {
 img {
     height: 100%;
     vertical-align: middle;
+}
+
+.container {
+    height: 1000px;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#add-task {
+    background-color: #47ADF1;
+    color: white;
+}
+
+#add-section {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
 }
